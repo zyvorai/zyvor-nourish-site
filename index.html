@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Zyvora Nourish — community nutrition, thoughtfully connected</title>
+<meta name="description" content="Zyvora Nourish by Zyvor AI Labs: families, growth, referrals, nutrition stock and follow-up in one self-hosted workspace. Synthetic demo data only.">
+<link rel="canonical" href="https://zyvorai.github.io/zyvor-nourish-site/">
+<meta property="og:title" content="Zyvora Nourish — a healthier start, for every life">
+<meta property="og:description" content="Community nutrition and field operations, thoughtfully connected. Synthetic demo data only.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://zyvorai.github.io/zyvor-nourish-site/">
+<meta property="og:image" content="https://zyvorai.github.io/zyvor-nourish-site/assets/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://zyvorai.github.io/zyvor-nourish-site/assets/og.jpg">
+<meta name="theme-color" content="#0071e3">
+<link rel="icon" href="assets/nourish.svg" type="image/svg+xml">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="./"><img src="assets/nourish.svg" width="30" height="30" alt=""><span>zyvora <em>nourish</em></span></a>
+  <nav>
+    <a href="#what">What it does</a>
+    <a href="#screens">Screens</a>
+    <a href="#honest">Honest limits</a>
+    <a class="pill" href="demo/">Open the demo</a>
+  </nav>
+</header>
+
+<main>
+<div class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Community nutrition. Thoughtfully connected.</p>
+      <h1>A healthier start. <span>For every life.</span></h1>
+      <p class="lede">Families, growth, referrals, stock and follow-up in one calm, self-hosted workspace.</p>
+      <div class="cta">
+        <a class="pill" href="demo/">Open the live demo</a>
+        <a class="ghost" href="#what">See what it does</a>
+      </div>
+    </div>
+    <div class="frame"><img src="shots/overview.jpg" width="1568" height="667" alt="The Nourish overview: a care-plan banner and four counts of enrolled families, measurements, follow-ups and referrals."></div>
+  </div>
+</div>
+
+<div class="tip" role="note">The demo runs entirely in your browser with <strong>synthetic data</strong>. Nothing is sent to a server, and changes stay on your device. Never enter real personal or health information.</div>
+
+<section id="what">
+  <div class="wrap">
+    <p class="eyebrow">What it does</p>
+    <h2>Nine workspace sections, fourteen kinds of record.</h2>
+    <p class="sub">Built for the people who run feeding centres and field programmes, with consent first and every change audited.</p>
+    <div class="grid">
+      <div class="card"><h3>Families</h3><p>Consent-based enrolment, search, centre assignment and a profile history for every person.</p></div>
+      <div class="card"><h3>Growth</h3><p>Dated weight and height records with real history charts. No invented growth standards.</p></div>
+      <div class="card"><h3>Care</h3><p>Visits, overdue queues and referrals that can only be closed with a recorded outcome.</p></div>
+      <div class="card"><h3>Nutrition stock</h3><p>Batches ordered by expiry, deliveries checked against quantity, expiry and centre, corrections with a reason.</p></div>
+      <div class="card"><h3>Operations</h3><p>Appointments, daily attendance, tasks, meal plans with allergens, immunisation history, counselling and equipment.</p></div>
+      <div class="card"><h3>Insights</h3><p>Explained follow-up rules, possible duplicates for human review and stock-days estimates from recorded deliveries.</p></div>
+      <div class="card"><h3>Security</h3><p>Three roles, tenant scoping, expiring sessions, password changes that sign out every device, and a change audit.</p></div>
+      <div class="card"><h3>Reporting</h3><p>Live counts, a CSV summary and a versioned JSON export of the whole workspace.</p></div>
+      <div class="card"><h3>Optional AI briefings</h3><p>Off unless you configure a provider. Each briefing needs consent and sends aggregate counts only: no names, notes or IDs.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="screens" class="band">
+  <div class="wrap">
+    <p class="eyebrow">Screens</p>
+    <h2>Less searching. More clarity.</h2>
+    <p class="sub">Screenshots of the synthetic demo.</p>
+    <div class="shots">
+      <figure><div class="frame"><img src="shots/nutrition.jpg" width="1568" height="667" loading="lazy" alt="The Nutrition screen: three stock cards for millet mix, fortified cereal and lentils with quantities, batch codes and expiry dates."></div><figcaption>Nutrition — batches by earliest expiry</figcaption></figure>
+      <figure><div class="frame"><img src="shots/intelligence.jpg" width="1568" height="667" loading="lazy" alt="The Intelligence screen: four follow-up signal cards and a programme briefing panel."></div><figcaption>Intelligence — explainable signals, optional briefings</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap two">
+    <div>
+      <p class="eyebrow">Self-hosted</p>
+      <h2>Run it where your data should live.</h2>
+    </div>
+    <div>
+      <p class="sub" style="margin-top:0">A small Python service with a plain HTML, CSS and JavaScript front end. It runs on SQLite for a single site, or PostgreSQL with versioned migrations, typed tables and a connection pool for more. Docker and Kubernetes manifests are included, and the server never calls a third party unless you enable AI briefings.</p>
+      <p class="sub" style="margin:0">Interested? Write to <a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section id="honest" class="honest band">
+  <div class="wrap two">
+    <div>
+      <p class="eyebrow">Honest limits</p>
+      <h2>What this is, and what it is not.</h2>
+    </div>
+    <ul>
+      <li><strong>Synthetic data only.</strong> The demo shows invented people and stock. It is a browser simulation with no server, no real sign-in and no database.</li>
+      <li><strong>Not a clinical system.</strong> Insights use plain rules and arithmetic. Nothing here is medical advice, and no clinical, privacy or compliance certification is claimed.</li>
+      <li><strong>AI is optional and checked only with a test double.</strong> No real model was used to measure accuracy or speed; briefings are drafts for a person to review.</li>
+      <li><strong>Independent product.</strong> Not affiliated with Poshan Tracker or any government system, and no national records integration is included.</li>
+      <li><strong>Source is private.</strong> This site holds website content only.</li>
+    </ul>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Zyvor AI Labs · <a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a> · <a href="mailto:security@zyvor.dev">security@zyvor.dev</a></div>
+</footer>
+</body>
+</html>
