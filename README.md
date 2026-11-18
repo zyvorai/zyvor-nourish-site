@@ -1,5 +1,7 @@
 # Zyvora Nourish
 
+[Client overview (PDF)](docs/Zyvora-Nourish-Client-Overview.pdf)
+
 **A healthier start. For every life.**
 
 Public website for Zyvora Nourish: community nutrition and field operations in one self-hosted workspace. **Synthetic data only.** The application source is private; this repository holds website content only.
